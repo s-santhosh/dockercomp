@@ -18,7 +18,7 @@ type Articals []article
 func allArticles(w http.ResponseWriter, r *http.Request) {
 	articles := Articals{
 		article{Title: "docker compose", Desc: "compose des", Content: "content"},
-		article{Title: "golang", Desc: "go with rest", Content: manojbhargav content"},
+		article{Title: "golang", Desc: "go with rest", Content: santhosh8520 content"},
 	}
 	fmt.Println("All articles end point")
 	json.NewEncoder(w).Encode(articles)
